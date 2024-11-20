@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 95.35%;
+    font-family: Apple Chancery, cursive;
+}
+
+div.body-content{
+    /** Altura do rodapé tem que ser igual a isso aqui e vice-versa **/
+    padding-bottom: 125px;
+}
+
+header {
+    background-color: #000000; 
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 115px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#Home {
+    background-color: #007BFF;
+    color: #ffffff;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+#wrapper{
+    min-height: 110%;
+    position: relative;
+}
+
+.subtexto-branco {
+    color: #FFF;
+    font-size: 18px;
+}
+
+.footer-p {
+    margin-bottom: 0;
+}
+
+.estilo-linha {
+    border-color: #000000; 
+    background-color: #000000; 
+    height: 2px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.cor-footer {
+    color: #FFFFFF;
+}
+
+.fundo-azul {
+    background-color: #007BFF;
+}
+
+.footer-space {
+    height: 0px;
+}
+
+@media only screen and (max-width: 991px) {
+    footer{
+        background-color: black;
+        width: 100%;
+        height: 180px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .footer-space {
+        height: 80px;
+    }
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: Apple Chancery, cursive;
+    }
+}
